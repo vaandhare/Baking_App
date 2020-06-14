@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+
+    <!-- Error messages-->
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="empty_view">There are not info to display</string>
+    <string name="step_error">it was a error with the steps list</string>
+
+    <!-- Ingredient Activity -->
+    <string name="ingredients">Ingredients</string>
+    <string name="quantity" translatable="false">QTY</string>
+    <string name="measure" translatable="false">UOM</string>
+
+    <string name="ingredient_text">unsalted butter, melted</string>
+    <string name="measure_text" translatable="false">TBLSP</string>
+    <string name="quantity_text">6</string>
+
+    <!-- Steps Activity-->
+    <string name="steps">Steps</string>
+    <string name="recipe_step_instruction">Recipe step instruction</string>
+    <string name="servings_label">Servings</string>
+    <string name="servings_tv" translatable="false">0</string>
+    <string name="goofy_text">2. Whisk the graham cracker crumbs></string>
+    <string name="navigation_next_button">Navigation to next step</string>
+    <string name="navigation_previous_button">Navigation to previous step</string>
+
+    <string name="position_clicked">you click on the position</string>
+    <string name="detail_error_message">Recipe data not available</string>
+    <string name="title_activity_recipe_item">RecipeItem</string>
+
+    <!-- Widget-->
+    <string name="list_widget_added"> added to the widget</string>
+    <string name="list_widget_removed"> removed from the widget</string>
+    <string name="appwidget_text">Recipe Ingredients</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_widget">No ingredients added yet</string>
+    <string name="click_recipe">Click here to see recipes</string>
+    <string name="empty_space_video">Empty Space Video</string>
+    <string name="add_to_widget">Add to Widget</string>
+
+
+</resources>

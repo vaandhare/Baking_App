@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: kr.pe.burt.android.lib:androidgradientimageview:0.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab96ec2e033f324c28b4ff85f4b54b09/jetified-androidgradientimageview-0.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab96ec2e033f324c28b4ff85f4b54b09/jetified-androidgradientimageview-0.0.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kr.pe.burt.android.lib/androidgradientimageview/0.0.2/22189827be394cc95b5973b2530e43f20f909d81/androidgradientimageview-0.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kr.pe.burt.android.lib/androidgradientimageview/0.0.2/9b9ae61583bd1c13e7f1897a4fcd5cc8ed9ca9dd/androidgradientimageview-0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

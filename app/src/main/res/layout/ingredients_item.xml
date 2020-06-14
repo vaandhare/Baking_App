@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/padding"
+    android:layout_marginRight="@dimen/padding"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/padding"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/tvIngredient"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:text="@string/ingredient_text"
+        android:textSize="@dimen/normal_text_size" />
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/quantity_text"
+        android:textSize="@dimen/normal_text_size" />
+
+    <TextView
+        android:id="@+id/tvMeasure"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingStart="@dimen/padding"
+        android:text="@string/measure_text"
+        android:textAlignment="viewEnd"
+        android:textSize="@dimen/normal_text_size"
+        tools:ignore="RtlSymmetry" />
+</LinearLayout>

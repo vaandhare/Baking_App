@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="13"
+    tools:context=".activity.DetailRecipeActivity">
+
+    <FrameLayout
+        android:id="@+id/fragmentSteps"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4" />
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/linear_layoutRecipe"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="9">
+
+        <FrameLayout
+            android:id="@+id/fragmentStepsDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

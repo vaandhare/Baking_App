@@ -1,0 +1,23 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/padding"
+    app:cardBackgroundColor="@color/textColor"
+    app:cardCornerRadius="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvSteps"
+    app:cardElevation="8dp">
+
+    <TextView
+        android:id="@+id/tvTitleSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/background"
+        android:textSize="20sp"
+        tools:text="@string/app_name" />
+
+</androidx.cardview.widget.CardView>

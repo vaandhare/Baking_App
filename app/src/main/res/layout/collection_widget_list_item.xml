@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="@dimen/padding"
+    android:minHeight="40dp"
+    android:weightSum="5"
+    android:id="@+id/linear_layoutWidgetItemContainer"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+
+    <TextView
+        android:id="@+id/tvQuantityWidget"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/half_padding"
+        android:textColor="@color/background"
+        android:layout_weight="1"
+        android:textAlignment="textStart"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tvMeasureWidget"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/half_padding"
+        android:layout_height="match_parent"
+        android:textAlignment="textStart"
+        android:textColor="@color/background" />
+
+    <TextView
+        android:id="@+id/tvIngredientWidget"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/half_padding"
+        android:textAlignment="viewStart"
+        android:textColor="@color/background" />
+</LinearLayout>
